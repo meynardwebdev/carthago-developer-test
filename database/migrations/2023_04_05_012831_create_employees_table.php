@@ -21,6 +21,7 @@ class CreateEmployeesTable extends Migration
             $table->integer('office_id')->nullable(false);
             $table->integer('reports_to');
             $table->string('job_title')->nullable(false);
+            $table->timestamps();
         });
     }
 

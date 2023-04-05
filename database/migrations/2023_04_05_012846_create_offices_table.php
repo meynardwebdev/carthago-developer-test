@@ -23,6 +23,7 @@ class CreateOfficesTable extends Migration
             $table->string('postal_code')->nullable(false);
             $table->string('country')->nullable(false);
             $table->string('territory')->nullable(false);
+            $table->timestamps();
         });
     }
 

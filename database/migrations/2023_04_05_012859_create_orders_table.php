@@ -21,6 +21,7 @@ class CreateOrdersTable extends Migration
             $table->string('status')->nullable(false);
             $table->string('comments')->nullable();
             $table->integer('customer_id')->nullable(false);
+            $table->timestamps();
         });
     }
 

@@ -19,6 +19,7 @@ class CreatePaymentsTable extends Migration
             $table->string('check_number')->nullable(false);
             $table->date('payment_date')->nullable(false);
             $table->float('amount')->nullable(false);
+            $table->timestamps();
         });
     }
 

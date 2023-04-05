@@ -20,6 +20,7 @@ class CreateOrderDetailsTable extends Migration
             $table->integer('quantity')->nullable(false);
             $table->float('price')->nullable(false);
             $table->integer('order_line_number')->nullable(false);
+            $table->timestamps();
         });
     }
 
