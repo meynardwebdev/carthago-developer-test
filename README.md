@@ -59,7 +59,7 @@
     pass: password
     ```
 
-## How to setup the via ddev-local
+## How to setup the project via ddev-local
 
 ### Prerequisite
 
